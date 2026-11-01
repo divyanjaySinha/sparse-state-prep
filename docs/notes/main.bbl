@@ -1,0 +1,58 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{rupprecht2026sparse}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=52e9df809e4f6095a8ccfd5e0bf6b362}{%
+           family={Rupprecht},
+           familyi={R\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8145a6b126be87819b1a64a20f663f92}{%
+           family={Wölk},
+           familyi={W\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{01f544d69f537dde8cd30191b459992b}
+      \strng{fullhash}{01f544d69f537dde8cd30191b459992b}
+      \strng{fullhashraw}{01f544d69f537dde8cd30191b459992b}
+      \strng{bibnamehash}{01f544d69f537dde8cd30191b459992b}
+      \strng{authorbibnamehash}{01f544d69f537dde8cd30191b459992b}
+      \strng{authornamehash}{01f544d69f537dde8cd30191b459992b}
+      \strng{authorfullhash}{01f544d69f537dde8cd30191b459992b}
+      \strng{authorfullhashraw}{01f544d69f537dde8cd30191b459992b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Sparse quantum state preparation with improved {Toffoli} cost}
+      \field{year}{2026}
+      \verb{eprint}
+      \verb 2601.09388
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

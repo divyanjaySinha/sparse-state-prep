@@ -1,0 +1,2 @@
+\contentsline {section}{\numberline {1}The tableau}{1}{section.1}%
+\contentsline {paragraph}{Worked example.}{1}{section*.2}%

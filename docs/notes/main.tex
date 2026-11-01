@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{braket}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage[hidelinks]{hyperref}   % load near-last
+
+\addbibresource{refs.bib}
+\graphicspath{{figures/}}
+
+\input{macros}
+
+\newtheorem{definition}{Definition}[section]
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}[section]
+
+\title{Implementing Sparse State Preparation\\
+       \large Study notes on Rupprecht \& W\"olk}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\input{sections/00-tableau}
+
+\printbibliography
+\end{document}

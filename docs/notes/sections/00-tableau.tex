@@ -1,0 +1,34 @@
+% !TEX root = ../main.tex
+\section{The tableau}
+
+We follow Section~2 of \cite{rupprecht2026sparse}. A sparse target state is
+\[
+  \ket{\Theta} = \sum_{i=0}^{s-1} c_i \ket{C_i},
+\]
+with each $\ket{C_i}$ an $n$-bit computational basis state and $s \ll 2^n$.
+
+\begin{definition}[Tableau]
+Stack the bitstrings $C_i$ as the rows of an $s \times n$ bit matrix.
+Let $l = \ceillog{s}$. Split every row at position $l$ into
+$\ket{C_i} = \ket{C'_i}_{s}\ket{C''_i}_{r}$, the \emph{subspace register}
+($l$ qubits) and the \emph{non-subspace register} ($n-l$ qubits).
+\end{definition}
+
+The goal is a circuit $G$ and an injective map $f$ with
+$G\ket{C_i} = \ket{f(i)}_s \ket{0}_r$ for all $i$. The state preparation
+circuit is then the inverse of $G$ applied after a dense preparation on
+$l$ qubits.
+
+\begin{definition}[Batch size]
+$m = \max\{\,2^p : 2^p \le n - l\,\}$.
+\end{definition}
+
+\paragraph{Worked example.} The paper's seven states have $s=7$, $n=7$,
+so $l=\ceillog{7}=3$ and $m=4$. The first state is
+\bits{011|1011}: subspace part \bits{011}, non-subspace part \bits{1011}.
+
+\begin{remark}
+Every gate in $G$ (X, CX, Toffoli, multi-controlled X) permutes
+computational basis states, so $G$ can be simulated on bitstrings alone.
+This is why the code can be tested classically.
+\end{remark}
