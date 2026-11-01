@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1793555121.20082 "main.bcf" "main.bbl" "main" 1793555123.69363 0
-  "main.bcf" 1793555123.63768 108619 d9f85c6655e5d484cd39c1ce169aee04 "pdflatex"
+["biber main"] 1793555121.20082 "main.bcf" "main.bbl" "main" 1793555407.06288 0
+  "main.bcf" 1793555407.00777 108619 d9f85c6655e5d484cd39c1ce169aee04 "pdflatex"
   "refs.bib" 1793554973.12989 490 5b264984304b7179de6b501ee15e8603 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1793555123.05164 "/home/div/sparse-state-prep/docs/notes/main.tex" "main.pdf" "main" 1793555123.69388 0
+["pdflatex"] 1793555406.42174 "/home/div/sparse-state-prep/docs/notes/main.tex" "main.pdf" "main" 1793555407.06311 0
   "/etc/texmf/web2c/texmf.cnf" 1788706927.55423 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/div/sparse-state-prep/docs/notes/main.tex" 1793554833.125 789 ac31a3024e0b10af06120b149c56e5d3 ""
+  "/home/div/sparse-state-prep/docs/notes/main.tex" 1793555406.27354 795 23dac5344ac6731c5a1ae5a0107d8b3a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -138,12 +138,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1788706946 5541477 3118940318599480888143717dd32d64 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1788707011 3640294 f43320c523d28012cb8b4d3265805cf4 ""
   "macros.tex" 1793554901.1591 249 f38b4c06a8f5255c6ef5796f86a1e070 ""
-  "main.aux" 1793555123.63581 650 d37167941a6ecacaa4bb258812e4935e "pdflatex"
+  "main.aux" 1793555407.00589 650 d37167941a6ecacaa4bb258812e4935e "pdflatex"
   "main.bbl" 1793555121.72367 1912 bb24aa13e254ccd977705d38e6cda439 "biber main"
-  "main.out" 1793555123.63581 101 a6a58dac8a0a52003cef4ef64346135b "pdflatex"
-  "main.run.xml" 1793555123.63894 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.tex" 1793554833.125 789 ac31a3024e0b10af06120b149c56e5d3 ""
-  "main.toc" 1793555123.63894 126 605d6897456a6812f07d9066190c415c "pdflatex"
+  "main.out" 1793555407.00747 101 a6a58dac8a0a52003cef4ef64346135b "pdflatex"
+  "main.run.xml" 1793555407.00889 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.tex" 1793555406.27354 795 23dac5344ac6731c5a1ae5a0107d8b3a ""
+  "main.toc" 1793555407.00889 126 605d6897456a6812f07d9066190c415c "pdflatex"
   "sections/00-tableau.tex" 1793555120.3768 1285 d77dc533897f24ac9285107dbeb76f50 ""
   (generated)
   "main.aux"
